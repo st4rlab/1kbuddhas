@@ -9,6 +9,9 @@ a {
 a:hover {
 	color:#a05a2c;
 }
+.uk-button-primary {
+	background-color:#282c34;
+}
 .uk-navbar-nav>li>a {
 	color:#000;
 }
