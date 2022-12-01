@@ -9,6 +9,10 @@ a {
 a:hover {
 	color:#a05a2c;
 }
+.uk-button {
+	font-size: 18px;
+	font-family: 'Lora', serif;
+}
 .uk-button-primary {
 	background-color:#A0392A;
 }
