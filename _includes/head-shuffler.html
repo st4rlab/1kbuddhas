@@ -23,7 +23,7 @@
 
   <!-- Facebook Open Graph -->
   <meta property="fb:app_id" content="{{ site.fb_app_id }}">
-  <meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html',''}}">
+  <meta property="og:url" content="{{ site.baseurl }}/oracle">
   <meta property="og:type" content="website">
   <meta property="og:title" content="{{ page_title }}">
   <meta property="og:image" content="{% if page.bigimg %}{{ page.bigimg | prepend: site.url }}{% else %}{{ "/oracle/assets/site-icon.png" | prepend: site.url }}{% endif %}">
@@ -35,7 +35,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@{{ site.twitter }}">
   <meta name="twitter:creator" content="@{{ site.twitter }}">
-  <meta name="twitter:url" content="{{ site.url }}{{ page.url | replace:'index.html',''}}">
+  <meta name="twitter:url" content="{{ site.baseurl }}/oracle">
   <meta name="twitter:title" content="{{ page_title }}">
   <meta name="twitter:description" content="{{ page_description }}">
   <meta name="twitter:image" content="{% if page.bigimg %}{{ page.bigimg | prepend: site.url }}{% else %}{{ "/oracle/assets/site-icon.png" | prepend: site.url }}{% endif %}">
@@ -47,7 +47,7 @@
 
   <title>{{ page_title }}</title>
 
-  <base href="{{site.baseurl}}">
+  <base href="{{site.baseurl}}/oracle">
 
   <!-- Prefetching, preloading, prebrowsing -->
   <link rel="dns-prefetch" href="{{site.baseurl | remove: "https:" }}">
