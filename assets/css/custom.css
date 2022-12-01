@@ -13,7 +13,12 @@ a:hover {
 	font-size: 18px;
 	font-family: 'Lora', serif;
 }
-
+.uk-button-primary {
+	background-color:#483e37;
+}
+.uk-button-primary:hover {
+	background-color:#a05a2c;
+}
 .uk-navbar-nav>li>a {
 	color:#000;
 }
