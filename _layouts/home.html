@@ -1,0 +1,49 @@
+---
+layout: homepage
+title: Ancient Wisdom Oracle
+logo: light
+---
+<body class="homepage">
+  <div class="uk-background-top-center" style="background-image: url({{ "/assets/img/home-mandala.jpg" | relative_url }});background-color:#241f1c;">
+    <div>
+      {% include home-header.html %}
+      <div class="uk-section uk-section-small uk-padding-remove-top">
+        <div class="intro-text uk-container uk-light uk-text-center uk-margin-top">
+          <h2 class="uk-heading-medium uk-animation-slide-top-small">1000 Buddhas Oracle</h2>
+          <div class="uk-grid-match uk-child-width-1-1@m" uk-grid>
+            <div>
+              <h3 class="uk-h4 uk-animation-slide-left-small">Get insight from the 1000 buddhas, a free online fortune teller using AI.</h3>
+              <div>
+                <a class="uk-button uk-button-default uk-button-large" href="{{"/oracle" | relative_url}}">Try it</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="uk-section uk-section-small uk-section-secondary">
+      <div class="uk-container">
+        <div class="uk-text-center uk-margin">
+          <button class="shuffle-btn uk-button uk-button-default uk-button-large uk-width-xlarge" onclick="shuffleElementsAndAppendToBody(document.getElementsByClassName('shuffle'))">Shuffle Buddhas</button>
+        </div>
+        <div class="uk-width-xlarge uk-align-center">
+          {% include buddhas.html %}
+        </div>
+
+      </div>
+    </div>
+
+    <div id="Connect" class="uk-section uk-section-secondary">
+      <div class="uk-container">
+        <div class="uk-width-xlarge uk-align-center">
+          <div>
+            {% include social-sharing.html %}
+          </div>
+          <div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
