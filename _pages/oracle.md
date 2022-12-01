@@ -13,7 +13,6 @@ To get your fortune told by the 1000 Buddhas, follow the instructions below.
 
 First step: Breathe - Ah... Take a moment to inhale and exhale consciously before proceeding.
 
-
 ## Step 2. Click the Energy Infuser
 
 The energy infuser collects energy from your contact with it. Simply click the button as many times as you feel is right to infuse your personal energy into the deck.
@@ -23,8 +22,6 @@ The energy infuser collects energy from your contact with it. Simply click the b
 <h4 id="number"></h4>
 <div class="uk-container"><span id="clickprogress"></span></div>
 </main>
-
-***
 
 ## Step 3. Now click the Get Insight button to generate your fortune.
 
