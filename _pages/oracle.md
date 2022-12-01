@@ -18,6 +18,7 @@ The energy infuser collects energy from your contact with it. Simply click the b
 <main class="uk-text-center">
 <button onclick="getRandom()" id="btn1" class="uk-button uk-button-primary">Energy Infuser</button>
 <h4 id="number"></h4>
+<div class="uk-container"><span id="clickprogress"></span></div>
 </main>
 
 ***

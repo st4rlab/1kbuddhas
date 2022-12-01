@@ -1,6 +1,11 @@
 function getRandom() {
   var numberGen = document.getElementById("number")
   numberGen.innerHTML = `<span>Your Lucky Number:</span> ` + Math.floor((Math.random() * 100000000) + 1);
+
+      document.getElementById("clickprogress").insertAdjacentHTML("afterend",
+          "||");
+
+
 }
 
 function randomImg() {
