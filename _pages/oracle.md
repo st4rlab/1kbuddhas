@@ -5,7 +5,7 @@ permalink: /oracle
 ---
 
 <div class="uk-text-center">
-<img src="{{"/assets/img/buddhas/buddha-001.jpg" | relative_url}}" alt="001"  width="448" height="448"></div>
+<img src="{{"/screenshot.jpg" | relative_url}}" alt="001"  width="448" height="448"></div>
 
 # Step 1. Getting Started / How to use
 
