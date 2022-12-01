@@ -12,7 +12,7 @@ To get your fortune told by the 1000 Buddhas, follow the instructions below.
 
 ## Step 1.
 
-First step: Breathe - Ah... Take a moment to inhale and exhale consciously before proceeding.
+Breathe - Ah... Take a moment to inhale and exhale consciously before proceeding.
 
 ## Step 2. Click the Energy Infuser
 
