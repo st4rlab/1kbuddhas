@@ -19,7 +19,7 @@ First step: Breathe - Ah... Take a moment to inhale and exhale consciously befor
 The energy infuser collects energy from your contact with it. Simply click the button as many times as you feel is right to infuse your personal energy into the deck.
 
 <main class="uk-text-center">
-<button onclick="getRandom()" id="btn1" class="uk-button uk-button-primary">Energy Infuser</button>
+<button onclick="getRandom()" id="btn1" class="uk-button uk-button-primary uk-width-1-1">Energy Infuser</button>
 <h4 id="number"></h4>
 <div class="uk-container"><span id="clickprogress"></span></div>
 </main>
