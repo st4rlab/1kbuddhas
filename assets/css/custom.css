@@ -6,6 +6,9 @@ pre {
 a {
 	color: #483e37;
 }
+hr {
+	border-top:1px solid #a89e7b;
+}
 a:hover {
 	color:#a05a2c;
 }
