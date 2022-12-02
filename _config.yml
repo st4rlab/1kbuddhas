@@ -78,7 +78,7 @@ disqus: ""
 twitter: "kre8t_"
 github: "st4rlab"
 fb_app_id: "" # This is needed for FB Cards to work.
-google_analytics: "G-KZ1JS263PW"
+google_analytics: "G-YGPD5J6GGP"
 
 include: ["_pages"]
 
