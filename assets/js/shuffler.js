@@ -36,12 +36,19 @@ function shuffleElementsAndAppendToBody(array) {
 
 
 function showLoadingAnimation(targetElement) {
+  // Create the background overlay element
+  var overlay = document.createElement('div');
+  overlay.classList.add('loading-overlay');
+
   // Create the loading animation element
   var loadingAnimation = document.createElement('div');
   loadingAnimation.classList.add('loading-animation');
 
-  // Add the loading animation to the target element
-  targetElement.appendChild(loadingAnimation);
+  // Add the loading animation to the background overlay
+  overlay.appendChild(loadingAnimation);
+
+  // Add the background overlay to the target element
+  targetElement.appendChild(overlay);
 }
 
 
