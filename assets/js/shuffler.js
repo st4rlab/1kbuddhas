@@ -24,6 +24,30 @@ function appendToParentOrBody(array) {
 }
 
 function shuffleElementsAndAppendToBody(array) {
-  let shuffledArray = shuffle(array);
-  appendToParentOrBody(shuffledArray);
+  showLoadingAnimation(); // Show the loading animation
+
+  setTimeout(function() {
+    let shuffledArray = shuffle(array);
+    appendToParentOrBody(shuffledArray);
+
+    hideLoadingAnimation(); // Hide the loading animation
+  }, 1000); // The task takes 5 seconds to complete
+}
+
+
+function showLoadingAnimation() {
+  // Create the loading animation element
+  var loadingAnimation = document.createElement('div');
+  loadingAnimation.classList.add('loading-animation');
+
+  // Add the loading animation to the page
+  document.body.appendChild(loadingAnimation);
+}
+
+function hideLoadingAnimation() {
+  // Find the loading animation element
+  var loadingAnimation = document.querySelector('.loading-animation');
+
+  // Remove the loading animation from the page
+  loadingAnimation.remove();
 }

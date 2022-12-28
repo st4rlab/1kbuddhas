@@ -92,3 +92,19 @@ a.shuffle .divination-select {
 a.shuffle:hover .divination-select {
 	opacity:1;
 }
+
+
+.loading-animation {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #333;
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
