@@ -24,30 +24,31 @@ function appendToParentOrBody(array) {
 }
 
 function shuffleElementsAndAppendToBody(array) {
-  showLoadingAnimation(); // Show the loading animation
+  showLoadingAnimation(document.querySelector('#buddhas-container')); // Show the loading animation
 
   setTimeout(function() {
     let shuffledArray = shuffle(array);
     appendToParentOrBody(shuffledArray);
 
-    hideLoadingAnimation(); // Hide the loading animation
+    hideLoadingAnimation(document.querySelector('#buddhas-container')); // Hide the loading animation
   }, 5000); // The task takes 5 seconds to complete
 }
 
 
-function showLoadingAnimation() {
+function showLoadingAnimation(targetElement) {
   // Create the loading animation element
   var loadingAnimation = document.createElement('div');
   loadingAnimation.classList.add('loading-animation');
 
-  // Add the loading animation to the page
-  document.body.appendChild(loadingAnimation);
+  // Add the loading animation to the target element
+  targetElement.appendChild(loadingAnimation);
 }
 
-function hideLoadingAnimation() {
-  // Find the loading animation element
-  var loadingAnimation = document.querySelector('.loading-animation');
 
-  // Remove the loading animation from the page
+function hideLoadingAnimation(targetElement) {
+  // Find the loading animation element within the target element
+  var loadingAnimation = targetElement.querySelector('.loading-animation');
+
+  // Remove the loading animation from the target element
   loadingAnimation.remove();
 }
