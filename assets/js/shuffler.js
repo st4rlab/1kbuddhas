@@ -31,7 +31,7 @@ function shuffleElementsAndAppendToBody(array) {
     appendToParentOrBody(shuffledArray);
 
     hideLoadingAnimation(document.querySelector('#buddhas-container')); // Hide the loading animation
-  }, 1000); // The task takes 5 seconds to complete
+  }, 500); // The task takes 1/2 second to complete
 }
 
 
