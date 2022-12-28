@@ -31,7 +31,7 @@ function shuffleElementsAndAppendToBody(array) {
     appendToParentOrBody(shuffledArray);
 
     hideLoadingAnimation(); // Hide the loading animation
-  }, 1000); // The task takes 5 seconds to complete
+  }, 5000); // The task takes 5 seconds to complete
 }
 
 
