@@ -47,7 +47,8 @@ color: white;
 }
 h1, .uk-heading-large, .uk-heading-xlarge, .uk-heading-2xlarge {
 	font-family: 'Lora', serif;
-	font-weight:500;
+	font-weight:100;
+	font-style:italic;
 }
 h2,  .uk-heading-medium, .uk-heading-small {
 	font-family: 'Lora', serif;
@@ -118,6 +119,9 @@ a > img.divination-select:hover {
 }
 .buddha-content h1, .buddha-content h2 {
 	color: #A99587;
+}
+.buddha-content h2 {
+	font-size:1.2rem;
 }
 .buddha-content p {
 	color: #b1a697;
