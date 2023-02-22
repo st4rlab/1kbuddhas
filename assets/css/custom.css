@@ -106,7 +106,7 @@ a > img.divination-select:hover {
 .buddha-body {
 	background-color:#0c0c0c;
 }
-.buddha-content-div > .uk-text-center {
+.buddha-content-div > .uk-text-center img {
 	display: none;
 }
 .loading-overlay {
