@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,500&display=swap');
 
+body {
+	background-color:#0c0c0c;
+}
 pre {
 	background-color:#282c34;
 }
@@ -113,7 +116,7 @@ a > img.divination-select:hover {
 	color: #A99587;
 }
 .buddha-content p {
-	color: #A9836B;
+	color: #c2a68c;
 }
 .loading-overlay {
   width: 100%;
