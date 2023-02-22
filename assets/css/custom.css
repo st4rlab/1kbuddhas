@@ -29,7 +29,7 @@ a:hover {
 	color:#000;
 }
 p {
-	font-size:18px;
+	font-size:17px;
 }
 .uk-navbar-left.uk-light.black, .blackback {
     background-color: black;
@@ -45,14 +45,18 @@ color: white;
 .homepage .uk-light h2 {
 	color:#e9d4ae;
 }
-h1, h2, .uk-heading-large, .uk-heading-medium, .uk-heading-small, .uk-heading-xlarge, .uk-heading-2xlarge {
+h1, .uk-heading-large, .uk-heading-xlarge, .uk-heading-2xlarge {
 	font-family: 'Lora', serif;
 	font-weight:500;
+}
+h2,  .uk-heading-medium, .uk-heading-small {
+	font-family: 'Lora', serif;
+	font-weight:300;
 	font-style:italic;
 }
 h3, h4, h5, h6, p, a, button, blockquote {
 	font-family: 'Lora', serif;
-	font-weight:400;
+	font-weight:300;
 }
 .uk-card {
 	border-radius:8px;
