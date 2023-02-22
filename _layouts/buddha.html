@@ -2,32 +2,30 @@
 layout: shuffler
 ---
 <div>
-  <div class="uk-container">
+  <div class="uk-container uk-container-expand">
     <div class="uk-grid-collapse" uk-grid>
-        <div class="uk-width-2-3@m uk-flex-last@m buddha-square">
-          <img src="{{"/assets/img/machina_dark_brown.jpg" | relative_url}}" alt="001"  width="1024" height="1024">
-        </div>
-        <div class="uk-width-1-3@m uk-overflow-auto buddha-content">
-            <div class="uk-section uk-flex uk-flex-center">
-              <div class="buddha-content-div">{{content}}</div>
-              <div class="buddha-moreinsight-div">
-                <h3>Get more insight from the 1000 Buddhas</h3>
-                <div class="uk-text-center uk-margin">
-                  <button class="shuffle-btn uk-button uk-button-secondary uk-button-large uk-width-1-1" onclick="shuffleElementsAndAppendToBody(document.getElementsByClassName('shuffle'))">Shuffle 1000 Buddhas</button>
-                </div>
-                <div>
-                  <p>Just click the Shuffle Button and then select any one of the 1000 buddhas below to get your personal fortune.</p>
-                  <div id="buddhas-container">
-                    {% include buddhas.html %}
-                  </div>
-
-                </div>
-              </div>
-            <hr>
-            {% include totop.html %}
+      <div class="uk-width-2-3@m uk-flex-last@m buddha-square">
+        <img src="{{"/assets/img/machina_dark_brown.jpg" | relative_url}}" alt="001" width="1024" height="1024">
+      </div>
+      <div class="uk-width-1-3@m uk-overflow-auto buddha-content">
+        <div class="buddha-content-div">{{content}}</div>
+        <div class="buddha-moreinsight-div">
+          <h3>Get more insight from the 1000 Buddhas</h3>
+          <div class="uk-text-center uk-margin">
+            <button class="shuffle-btn uk-button uk-button-secondary uk-button-large uk-width-1-1" onclick="shuffleElementsAndAppendToBody(document.getElementsByClassName('shuffle'))">Shuffle 1000 Buddhas</button>
+          </div>
+          <div>
+            <p>Just click the Shuffle Button and then select any one of the 1000 buddhas below to get your personal fortune.</p>
+            <div id="buddhas-container">
+              {% include buddhas.html %}
             </div>
-        {% include social-sharing.html %}
+
+          </div>
         </div>
+        <hr>
+        {% include totop.html %}
+        {% include social-sharing.html %}
+      </div>
     </div>
   </div>
 </div>
