@@ -30,6 +30,7 @@ a:hover {
 }
 p {
 	font-size:17px;
+	line-height:1.8rem
 }
 .uk-navbar-left.uk-light.black, .blackback {
     background-color: black;
