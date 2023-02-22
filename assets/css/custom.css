@@ -109,6 +109,9 @@ a > img.divination-select:hover {
 .buddha-content-div > .uk-text-center {
 	display: none;
 }
+.buddha-content h1, .buddha-content h2 {
+	color: #A99587;
+}
 .loading-overlay {
   width: 100%;
   height: 100%;
