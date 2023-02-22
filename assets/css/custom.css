@@ -112,6 +112,9 @@ a > img.divination-select:hover {
 .buddha-content h1, .buddha-content h2 {
 	color: #A99587;
 }
+.buddha-content p {
+	color: #A9836B;
+}
 .loading-overlay {
   width: 100%;
   height: 100%;
